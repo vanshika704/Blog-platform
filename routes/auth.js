@@ -3,7 +3,7 @@ import User from "../models/user.js"
 const router = express.Router();
 
 
-const { body, validationResult } = require('express-validator');
+import { body, validationResult } from 'express-validator';
 
 // Registration route with validation
 router.post('/register', [
@@ -61,4 +61,4 @@ router.post('/register', async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;

@@ -17,3 +17,4 @@ const blogSchema = new mongoose.Schema({
 
 export default mongoose.model('Blog', blogSchema);
 
+// blogg me humare paas kya kya hoga title , description or created at 
